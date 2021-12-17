@@ -1,0 +1,15 @@
+{
+  "name": "plan-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "htmlparser2": "^7.2.0",
+    "jsdom": "^19.0.0",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.1.0",
+    "xmldom": "^0.6.0",
+    "xpath": "^0.0.32"
+  }
+}
