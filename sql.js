@@ -1,20 +1,24 @@
-import { createConnection } from 'mysql2/promise';
-import fs from 'fs';
+import { createConnection } from "mysql2/promise";
+import fs from "fs";
 
 /**
  * 用于从文件中读取数据并自动向数据库中插入数据
  */
 
-const connection = await createConnection({
-  host: '100.76.7.167',
-  user: 'root',
-  password: '123456',
-  database: 'plan',
-});
+// const connection = await createConnection({
+//   host: '100.76.7.167',
+//   user: 'root',
+//   password: '123456',
+//   database: 'plan',
+// });
 
-const file = fs.readFileSync('file.txt', "utf8");
+const file = fs.readFileSync("file.txt", "utf8");
 
 const lines = file.split("\r\n");
+
+for (let i = 0; i < lines.length; i++) {
+  const 
+}
 
 console.log(lines);
 
